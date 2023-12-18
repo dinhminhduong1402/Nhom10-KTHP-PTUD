@@ -12,51 +12,54 @@
     />
   </head>
   <body>
-    <div class="desktopcart">
-      <div class="header">
-        <img class="logo-icon" alt="" src="./public/logo@2x.png" />
 
+    <div class="desktopcart">
+      <!--Header-->
+      <div class="header">
+        <a href="../landingPage/index.html"><img class="logo-icon" alt="" src="./public/logo@2x.png" /></a>
         <div class="navbar-menu">
           <div class="navbar">
-            <div class="home">Trang chủ</div>
+            <a href="../landingPage/index.html" class="home">Trang chủ</a>
           </div>
           <div class="navbar">
-            <div class="home">Sản phẩm</div>
+            <a href="../shopPage/index.html" class="home">Sản phẩm</a>
           </div>
           <div class="navbar">
-            <div class="home">Bài viết</div>
+            <a href="#" class="home">Bài viết</a>
           </div>
           <div class="navbar">
-            <div class="home">Hỏi đáp</div>
+            <a href="#" class="home">Hỏi đáp</a>
           </div>
           <div class="navbar">
-            <div class="home">Liên hệ</div>
+            <a href="#" class="home">Liên hệ</a>
           </div>
         </div>
+        <!--Icon-->
         <div class="icons">
-          <div class="search">
+          <a href="#" class="search">
             <img
               class="vuesaxlinearsearch-normal-icon"
               alt=""
               src="./public/vuesaxlinearsearchnormal@2x.png"
             />
-          </div>
-          <div class="basket">
+          </a>
+          <a href="../cartPage/index.html" class="basket">
             <img
               class="vuesaxlinearsearch-normal-icon"
               alt=""
               src="./public/vuesaxoutlinebag@2x.png"
             />
-          </div>
-          <div class="profile" id="profileContainer">
+          </a>
+          <a href="../Personal/index.html" class="profile">
             <img
               class="vuesaxlinearsearch-normal-icon"
               alt=""
               src="./public/vuesaxoutlineuser@2x.png"
             />
-          </div>
+          </a>
         </div>
       </div>
+      <!--Sản phẩm trong giỏ hàng-->
       <div class="product-card-parent">
         <div class="product-card">
           <img class="image-icon" alt="" src="./public/image@2x.png" />
@@ -262,6 +265,7 @@
           </div>
         </div>
       </div>
+      <!--Chi tiết thanh toán-->
       <div class="desktopcart-inner">
         <div class="chi-tit-thanh-ton-parent">
           <div class="chi-tit-thanh">Chi tiết thanh toán</div>
@@ -281,32 +285,39 @@
               </div>
             </div>
             <img class="bill-child" alt="" src="./public/line-18@2x.png" />
-
+            <!--Tổng tiền-->
             <div class="grand-total">
               <div class="gray">Tổng tiền</div>
               <div class="div6">29.750.000</div>
             </div>
           </div>
+          <!--Nút tiến hành thanh toán-->
           <div class="button">
             <img class="vuesaxoutlineshopping-cart-icon" alt="" />
 
-            <div class="add-to-cart">Tiến hành thanh toán</div>
+            <div class="add-to-cart">
+            <a href="../Trangthanhtoan/index.html" class="add-to-cart" >   Tiến hành thanh toán </a>
+            </div>
             <img class="vuesaxoutlineshopping-cart-icon" alt="" />
           </div>
         </div>
       </div>
+      <!--Icon giỏ hàng-->
       <div class="badge">
         <div class="discount-amount">3</div>
       </div>
+      <!--Xem thêm các sản phẩm tương tự khác-->
       <div class="xem-thm-cc-sn-phm-tng-t-parent">
         <div class="in-stock">Xem thêm các sản phẩm tương tự khác</div>
         <div class="product-card-group">
+          <!--Sản phẩm 1-->
           <div class="product-card3">
+            <!--Hình ảnh sản phẩm-->
             <div class="image">
               <img class="image-icon3" alt="" src="./public/cart4.png" />
             </div>
             <img class="bill-child" alt="" src="./public/line-3@2x.png" />
-
+            <!--Thông tin sản phẩm-->
             <div class="info3">
               <div class="title3">
                 Apple MacBook Air 15" w/ Touch ID (2023) - Space Grey (Apple M2
@@ -331,6 +342,7 @@
               </div>
             </div>
           </div>
+          <!--Sản phẩm 2-->
           <div class="product-card4">
             <div class="image1">
               <div class="image2"></div>
@@ -372,6 +384,7 @@
               <div class="discount-amount">-12%</div>
             </div>
           </div>
+          <!--Sản phẩm 3-->
           <div class="product-card4">
             <div class="image3">
               <img class="image-icon4" alt="" src="./public/cart6.png" />
@@ -414,6 +427,7 @@
               <div class="discount-amount">-12%</div>
             </div>
           </div>
+          <!--Sản phẩm 4-->
           <div class="product-card4">
             <div class="image3">
               <img class="image-icon4" alt="" src="./public/image@2x.png" />
@@ -472,6 +486,7 @@
           <div class="step">Checkout</div>
         </div>
       </div>
+      <!--Giai đoạn thanh toán-->
       <div class="stepper-parent">
         <div class="stepper2">
           <div class="stepper3">
@@ -541,6 +556,7 @@
           </div>
         </div>
       </div>
+      <!--Footer-->
       <div class="footer">
         <div class="policy">
           <div class="techheim">
@@ -561,6 +577,7 @@
         </div>
         <div class="main-footer">
           <div class="info7">
+            <!--Liên hệ-->
             <div class="contact-us">
               <div class="contact-us1">Liên hệ</div>
               <div class="vuesaxoutlinetruck-parent">
@@ -595,12 +612,14 @@
                 </div>
               </div>
             </div>
+            <!--Thông tin-->
             <div class="info8">
               <div class="contact-us1">Thông tin</div>
               <div class="how-it-works">How it works?</div>
               <div class="discount-amount">Sứ mệnh</div>
               <div class="discount-amount">FAQ</div>
             </div>
+            <!--Công ty-->
             <div class="company">
               <div class="contact-us1">Công ty</div>
               <div class="discount-amount">Về chúng tôi</div>
@@ -608,16 +627,18 @@
               <div class="how-it-works">Chính sách hoàn trả</div>
               <div class="how-it-works">order status</div>
             </div>
+            <!--Nhập email đăng kí-->
             <div class="updates">
               <div class="sign-up-for">Đăng ký để nhận thông tin</div>
             </div>
             <div class="iconnormal"></div>
+            
             <div class="input">
               <div class="label-icon">
                 <img
                   class="vuesaxlinearsearch-normal-icon"
                   alt=""
-                  src="./public/vuesaxoutlineuser@2x.png"
+                  src="./public/iconuser.png"
                 />
 
                 <div class="label">

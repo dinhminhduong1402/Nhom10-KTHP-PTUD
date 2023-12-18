@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./index.css" />
     <link
@@ -11,26 +12,36 @@
     />
   </head>
   <body>
-    <div class="desktopaccount-orders">
-      <div class="header">
+    <div class="desktopaccount-orders"> <!-- Div bao bọc toàn bộ giao diện -->
+
+      <div class="header"> <!-- Phần header chứa logo, thanh điều hướng và các icon -->
+
         <img class="logo-icon" alt="" src="./public/logo@2x.png" />
 
-        <div class="navbar-menu">
+        <div class="navbar-menu"> <!-- Menu được bao bọc bởi div.navbar -->
+  <!-- Thẻ "Trang chủ" trong menu -->
+
           <div class="navbar">
             <div class="home">Trang chủ</div>
           </div>
+            <!-- Thẻ "Sản phẩm" trong menu -->
+
           <div class="navbar">
             <div class="home">Sản phẩm</div>
           </div>
+           <!-- Thẻ "Bài viết" trong menu -->
           <div class="navbar">
             <div class="home">Bài viết</div>
           </div>
+           <!-- thẻ "Hỏi đáp " trong menu -->
           <div class="navbar">
             <div class="home">Hỏi đáp</div>
           </div>
+            <!-- Thẻ "Liên hệ " trong menu -->
           <div class="navbar">
             <div class="home">Liên hệ</div>
           </div>
+         <!-- Thẻ "icon " gồm các thẻ link tới link hình -->    
         </div>
         <div class="icons">
           <div class="search">
@@ -56,14 +67,9 @@
           </div>
         </div>
       </div>
-      <div class="name"></div>
-      <div class="desktopaccount-orders-child"></div>
-      <div class="desktopaccount-orders-item"></div>
-      <div class="desktopaccount-orders-inner"></div>
-      <div class="frame-div"></div>
-      <div class="desktopaccount-orders-child1"></div>
-      <div class="desktopaccount-orders-child2"></div>
+      
       <img class="vuesaxoutlineuser-icon1" alt="" />
+
 
       <div class="label-icon">
         <img class="vuesaxoutlinearrow-down-icon" alt="" />
@@ -77,22 +83,18 @@
         <div class="theo-di-n">Theo dõi đơn hàng của bạn</div>
       </div>
       <img class="vuesaxoutlineclose-circle-icon" alt="" />
-
-      <div class="breadcrumb">
+   <!-- Thẻ div dùng để bọc  Trang chủ, tài khoản , lịch sử mua hàng -->
+      <div class="breadcrumb">   <!-- Phần breadcrumb, dùng để chỉ dẫn đường dẫn trên trang web. Breadcrumbs giúp người dùng biết họ đang ở đâu trong cấu trúc trang web. -->
+<!-- Mục "Trang chủ" trong , thường dẫn về trang chính của website -->
         <div class="breadcrumbs-elements">
           <div class="home">Trang chủ</div>
         </div>
-        <img class="vuesaxoutlinearrow-down-icon" alt="" />
-
-        <div class="breadcrumbs-elements1">
-          <div class="home">Home</div>
-        </div>
-        <img
+         <img
           class="vuesaxlinearsearch-normal-icon"
           alt=""
           src="./public/vuesaxoutlinearrowdown@2x.png"
         />
-
+<!-- Thẻ "Tài khoản"  , chứa thông tin cơ bản của khách hàng -->
         <div class="breadcrumbs-elements">
           <div class="home">Tài khoản</div>
         </div>
@@ -101,7 +103,7 @@
           alt=""
           src="./public/vuesaxoutlinearrowdown@2x.png"
         />
-
+<!-- Thẻ "Lịch sử mua hàng "  , chứa thông tin về lịch sử mua hàng của khách hàng -->
         <div class="breadcrumbs-elements3">
           <div class="home">Lịch sử mua hàng</div>
         </div>
@@ -114,9 +116,9 @@
             src="./public/frame-26086857@2x.png"
           />
 
-          <div class="account-side-menu">
+          <div class="account-side-menu"> <!-- Thẻ mô tả đầy đủ thông tin khách hàng -->
             <img class="vuesaxoutlinearrow-down-icon" alt="" />
-
+<!--Thẻ mô tả tên khách hàng -->
             <div class="lch-s-mua">Đinh Minh Dương</div>
           </div>
         </div>
@@ -126,8 +128,8 @@
             alt=""
             src="./public/vuesaxoutlineuseredit@2x.png"
           />
-
-          <div class="current">Thông tin cá nhân</div>
+<!--Thẻ mô tả thông tin cá nhân-->
+      <div class="current">Thông tin cá nhân</div>
         </div>
         <div class="account-side-menu1">
           <img
@@ -135,6 +137,7 @@
             alt=""
             src="./public/vuesaxoutlinedollarcircle@2x.png"
           />
+<!--Thẻ mô tả Thanh toán và trả góp-->
 
           <div class="current">Thanh toán & Trả góp</div>
         </div>
@@ -144,6 +147,7 @@
             alt=""
             src="./public/vuesaxoutlinebag@2x.png"
           />
+<!-- Thẻ mô tả đơn hàng-->
 
           <div class="current">Đơn hàng</div>
         </div>
@@ -153,6 +157,7 @@
             alt=""
             src="./public/vuesaxoutlineheart@2x.png"
           />
+<!--Thẻ mô tả danh sách yêu thích -->
 
           <div class="current">Danh sách yêu thích</div>
         </div>
@@ -162,7 +167,7 @@
             alt=""
             src="./public/vuesaxoutlinegift@2x.png"
           />
-
+<!--Thẻ mô tả danh sách khuyến mãi -->
           <div class="current">Khuyến mãi</div>
         </div>
         <div class="account-side-menu1">
@@ -171,6 +176,7 @@
             alt=""
             src="./public/vuesaxoutlinesecuritysafe@2x.png"
           />
+<!--Thẻ mô tả bảo mật và truy cập-->
 
           <div class="current">Bảo mật và Truy cập</div>
         </div>
@@ -180,6 +186,7 @@
             alt=""
             src="./public/vuesaxoutlinenotification@2x.png"
           />
+<!--Thẻ mô tả thông báo-->
 
           <div class="current">Thông báo</div>
         </div>
@@ -189,6 +196,7 @@
             alt=""
             src="./public/vuesaxoutline24support@2x.png"
           />
+<!--Thẻ mô tả liên hệ-->
 
           <div class="current">Liên hệ</div>
         </div>
@@ -198,12 +206,14 @@
             alt=""
             src="./public/vuesaxoutlinelogout@2x.png"
           />
-
+<!--Thẻ mô tả đăng xuất-->
           <div class="current">Đăng xuất</div>
         </div>
       </div>
       <div class="line-div"></div>
+  <!--Thẻ Dùng để nhóm các phần tử đang giao,đã giao, đã hủy, hoàn trả lại với nhau-->    
       <div class="titles">
+        <!-- Mô tả thẻ đang giao -->
         <div class="sub-orders">
           <div class="normal">
             <div class="current">Đang giao</div>
@@ -212,6 +222,7 @@
             </div>
           </div>
         </div>
+        <!-- Mô tả thẻ đã giao -->
         <div class="sub-orders1">
           <div class="normal1">
             <div class="current">Đã giao</div>
@@ -220,6 +231,7 @@
             </div>
           </div>
         </div>
+        <!-- Mô tả  thẻ đã hủy -->
         <div class="sub-orders">
           <div class="normal">
             <div class="current">Đã hủy</div>
@@ -228,6 +240,7 @@
             </div>
           </div>
         </div>
+        <!-- Mô tả thẻ hoàn trả-->
         <div class="sub-orders">
           <div class="normal">
             <div class="current">Hoàn trả</div>
@@ -237,28 +250,35 @@
           </div>
         </div>
       </div>
+      <!-- Thẻ mô tả đơn hàng lần đầu đã đặt của khách hàng gồm mã đơn, ngày đặt hàng, tống số tiền thanh toán, ngày giao đơn hàng, người nhận -->
       <div class="order-card">
         <div class="info">
-          <div class="order-code-parent">
+          <!-- Thẻ mô tả mã đơn -->
+          <div class="order-code-parent">  
             <div class="order-code">Mã đơn</div>
             <div class="div4">#8967856</div>
           </div>
+          <!-- Thẻ mô tả ngày đặt hàng -->
           <div class="order-code-parent">
             <div class="order-code">Ngày đặt hàng</div>
             <div class="div4">2023/08/20</div>
           </div>
+          <!-- Thẻ mô tả Tổng số tiền thanh toán -->
           <div class="order-code-parent">
             <div class="order-code">Tổng</div>
             <div class="div4">252.900.000đ</div>
           </div>
+          <!-- Thẻ mô tả đã giao -->
           <div class="order-code-parent">
             <div class="order-code">Đã giao</div>
             <div class="div4">2023/08/22</div>
           </div>
+          <!-- Thẻ mô tả người nhận -->
           <div class="sent-to-wrapper">
             <div class="order-code">Người nhận</div>
           </div>
         </div>
+        <!-- Thẻ mô tả ảnh  -->
         <div class="image">
           <img
             class="image-child"
@@ -309,27 +329,40 @@
           />
         </div>
       </div>
+    <!-- Thẻ mô tả đơn hàng lần hai đã đặt của khách hàng gồm mã đơn, ngày đặt hàng, tống số tiền thanh toán, ngày giao đơn hàng, người nhận -->
       <div class="order-card1">
         <div class="info">
+        <!-- Thẻ mô tả mã đơn -->
           <div class="order-code-parent">
             <div class="order-code">Mã đơn hàng</div>
             <div class="div4">#3615950</div>
           </div>
+        <!-- Thẻ mô tả ngày đặt hàng -->
+   
           <div class="order-code-parent">
             <div class="order-code">Ngày đặt hàng</div>
             <div class="div4">2023/06/30</div>
           </div>
+         <!-- Thẻ mô tả Tổng số tiền thanh toán -->
+
           <div class="order-code-parent">
             <div class="order-code">Tổng</div>
             <div class="div4">120.000.000đ</div>
           </div>
+         <!-- Thẻ mô tả đã giao -->
+
           <div class="order-code-parent">
             <div class="order-code">Đã giao</div>
             <div class="div4">2023/07/05</div>
           </div>
+       
+        <!-- Thẻ mô tả người nhận -->
+
           <div class="sent-to-wrapper">
             <div class="order-code">Người nhận</div>
           </div>
+         <!-- Thẻ mô tả ảnh  -->
+
         </div>
         <div class="image1">
           <img class="image-child3" alt="" />
@@ -388,3 +421,5 @@
     </div>
   </body>
 </html>
+
+

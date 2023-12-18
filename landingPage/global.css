@@ -16,6 +16,18 @@ button {
   background-color: unset;
   cursor: pointer;
 }
+* {
+  font-family: 'Inter';
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-secondary-secondary-400);
+}
+
 
 :root {
   /* fonts */
